@@ -936,6 +936,47 @@ footer a:hover {
     max-width: 800px;
 }
 
+/* Hero Links on About Page */
+.about-hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 60px auto;
+    flex-wrap: wrap;
+    max-width: 740px;
+}
+
+.about-hero-links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    gap: 12px;
+}
+
+.about-hero-links a:hover {
+    color: #ff7675;
+    transform: translateY(-4px);
+}
+
+.about-hero-icon {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    transition: transform 0.3s ease;
+}
+
+.about-hero-links a:hover .about-hero-icon {
+    transform: scale(1.1);
+}
+
 /* markdown gallery utilities */
 .project-grid-gallery {
     display: grid;
@@ -1092,5 +1133,15 @@ footer a:hover {
 
     .process-heading {
         font-size: 2.2rem;
+    }
+
+    .about-hero-links {
+        gap: 20px;
+        margin: 40px auto;
+    }
+
+    .about-hero-icon {
+        width: 20px;
+        height: 20px;
     }
 }
