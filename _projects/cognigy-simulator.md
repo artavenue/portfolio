@@ -31,7 +31,7 @@ This makes traditional testing approaches fundamentally inadequate. What enterpr
 My job was to translate this enormous complexity into an interface that enterprise users could actually understand, trust, and operate with confidence. **From zero.**
 
 <div class="project-image-container">
-    <img src="/assets/images/simulator/how-it-works.png" alt="Simplifying the workflow" class="project-image">
+    <img src="{{ '/assets/images/simulator/how-it-works.png' | relative_url }}" alt="Simplifying the workflow" class="project-image">
     <span class="image-caption">Visualizing the Mental Model: To reduce cognitive load, I created this illustration to break down the complex technical workflow into three intuitive steps.</span>
 </div>
 
@@ -49,7 +49,7 @@ At the core of every simulation is a **scenario**—a synthetic customer modeled
 Teams can define their own scenarios or accelerate setup with **AI-powered scenario generation** based on existing agents or real transcripts. The UX challenge was making this powerful configuration feel lightweight—not like filling out a database form.
 
 <div class="project-image-container">
-    <img src="/assets/images/simulator/simulator_3.png" alt="Persona Configuration" class="project-image">
+    <img src="{{ '/assets/images/simulator/simulator_3.png' | relative_url }}" alt="Persona Configuration" class="project-image">
     <span class="image-caption">Defining digital twins: Configuring Personas and Missions to mimic real-world user behavior.</span>
 </div>
 
@@ -64,7 +64,7 @@ A **simulation** is a controlled execution of a single scenario against a specif
 This makes it possible to validate not just *whether* an agent can succeed, but **how reliably** it succeeds across diverse interactions. Teams can compare versions side by side, validate multilingual consistency, or predict the impact of changes before they reach production.
 
 <div class="project-image-container">
-    <img src="/assets/images/simulator/simulator_4.png" alt="Batch Simulation Setup" class="project-image">
+    <img src="{{ '/assets/images/simulator/simulator_4.png' | relative_url }}" alt="Batch Simulation Setup" class="project-image">
     <span class="image-caption">Batch Testing: Orchestrating large-scale simulations to stress-test agent reliability.</span>
 </div>
 
@@ -87,7 +87,7 @@ Success criteria scored across all runs, revealing where performance is strong a
 The deepest layer. Every run is scored and paired with a full conversation transcript. Teams can inspect failed or borderline cases in detail, see exactly which success criteria were missed, and understand **why**. This turns detection into diagnosis—enabling precise, targeted improvements grounded in real evidence.
 
 <div class="project-image-container">
-    <img src="/assets/images/simulator/simulator_2.png" alt="Transcript Drill-Down" class="project-image">
+    <img src="{{ '/assets/images/simulator/simulator_2.png' | relative_url }}" alt="Transcript Drill-Down" class="project-image">
     <span class="image-caption">From detection to diagnosis: Drilling down into failed conversations to pinpoint the root cause.</span>
 </div>
 
@@ -103,7 +103,7 @@ AI agents don’t operate in isolation. They connect to CRMs, ERPs, and booking 
 - **Dependency-Free:** Teams can run thousands of tests without hitting production servers or rate limits.
 
 <div class="project-image-container">
-    <img src="/assets/images/simulator/simulator_api.png" alt="API Mock Configuration" class="project-image">
+    <img src="{{ '/assets/images/simulator/simulator_api.png' | relative_url }}" alt="API Mock Configuration" class="project-image">
     <span class="image-caption">Mocking dependencies: Defining custom API responses to simulate edge cases and failures.</span>
 </div>
 

@@ -15,7 +15,7 @@ hero_bg: "linear-gradient(135deg, #e6e9f0 0%, #eef1f5 100%)"
 - **Scope:** 0→1 MVP Concept
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/analyzer_planning_overview.png" alt="The War Room: Planning Overview" class="project-image">
+    <img src="{{ '/assets/images/analyzer/analyzer_planning_overview.png' | relative_url }}" alt="The War Room: Planning Overview" class="project-image">
     <span class="image-caption">The War Room: 7 days of strategy, mapping, and iteration in one view.</span>
 </div>
 
@@ -46,7 +46,7 @@ My task was to design a system that offers the speed of AI analysis with the saf
 Before designing screens, I needed to architect the logic. How does a failed user conversation turn into a system improvement? I utilized **Journey Mapping** to visualize the shift from the current state ("Frustrated & Overwhelmed by Excel lists") to the future state ("Empowered by Automated Insights").
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/future_state_journey_map.png" alt="Future-State Journey Map" class="project-image">
+    <img src="{{ '/assets/images/analyzer/future_state_journey_map.png' | relative_url }}" alt="Future-State Journey Map" class="project-image">
     <span class="image-caption">Mapping the logic behind the automated feedback loop.</span>
 </div>
 
@@ -67,7 +67,7 @@ Instead of linear lists, the dashboard provides immediate situational awareness 
 - **Persona Identification:** Detecting user archetypes (e.g., "Frustrated User") to tailor future responses.
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/analyzer_process.png" alt="Analysis Flow: Data to Cluster" class="project-image">
+    <img src="{{ '/assets/images/analyzer/analyzer_process.png' | relative_url }}" alt="Analysis Flow: Data to Cluster" class="project-image">
     <span class="image-caption">Visualizing the transition: From raw data analysis (left) to clustered insights (right).</span>
 </div>
 
@@ -78,7 +78,7 @@ Insight is useless without action. I designed a **"Suggestion Engine"** that dra
 - **Auto-Drafting:** The system proposes concrete fixes, such as "Create new Intent" or "Add specific FAQ," reducing the time-to-fix from hours to minutes.
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/analyzer_suggestions.png" alt="Actionable Insights and Suggestions" class="project-image">
+    <img src="{{ '/assets/images/analyzer/analyzer_suggestions.png' | relative_url }}" alt="Actionable Insights and Suggestions" class="project-image">
     <span class="image-caption">Proactive Intelligence: The system suggests concrete fixes (e.g., "Create new Intent") instead of just showing error rates.</span>
 </div>
 
@@ -90,7 +90,7 @@ To solve the enterprise trust dilemma, I introduced a robust **"Human-in-the-Loo
 - **Audit Trails:** Clear tracking of who approved a change and why, ensuring no AI modification goes live without sign-off.
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/analyzer_approval.png" alt="Approval Workflow Detail" class="project-image">
+    <img src="{{ '/assets/images/analyzer/analyzer_approval.png' | relative_url }}" alt="Approval Workflow Detail" class="project-image">
     <span class="image-caption">Control is key: Every change requires explicit approval. The "Diff View" allows for safe review before deployment.</span>
 </div>
 
@@ -102,7 +102,7 @@ The system isn't just for text. It adapts the "Fix" interface based on the probl
 - **Content Fixes (Right):** For knowledge gaps, it provides a **Text Diff View** (like a code review) for safe copy editing.
 
 <div class="project-image-container">
-    <img src="/assets/images/analyzer/analyzer_deep_dive.png" alt="Deep Dive: Content vs. Logic Fixes" class="project-image">
+    <img src="{{ '/assets/images/analyzer/analyzer_deep_dive.png' | relative_url }}" alt="Deep Dive: Content vs. Logic Fixes" class="project-image">
     <span class="image-caption">System Thinking: Handling text updates vs. structural logic changes within the same approval workflow.</span>
 </div>
 

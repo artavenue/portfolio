@@ -1,7 +1,7 @@
 title: "Robert Mischuda"
 description: "Senior Product Designer – Portfolio"
-baseurl: ""
-url: ""
+baseurl: "/portfolio"
+url: "https://artavenue.github.io"
 
 collections:
   projects:

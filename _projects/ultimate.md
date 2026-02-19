@@ -33,7 +33,7 @@ I facilitated stakeholder workshops to define success. We found that users didn'
 - **User Research:** Analyzed competitor widgets and gathered customer feedback.
 
 <div class="project-image-container">
-    <img src="/assets/images/ultimate/research_ultimate.png" alt="Competitor Analysis" class="project-image">
+    <img src="{{ '/assets/images/ultimate/research_ultimate.png' | relative_url }}" alt="Competitor Analysis" class="project-image">
     <span class="image-caption">Research of different companies, analyzing their features, best practices, and opportunities for differentiation.</span>
 </div>
 
@@ -42,19 +42,19 @@ I facilitated stakeholder workshops to define success. We found that users didn'
 Given the tight timeline, I collaborated closely with Product Management to split the roadmap. This ensured we shipped value fast while planning for scale (v1.0 MVP vs. v1.1 Scale).
 
 <div class="project-image-container">
-    <img src="/assets/images/ultimate/version1_1.png" alt="Miro Feature Mapping Table" class="project-image">
+    <img src="{{ '/assets/images/ultimate/version1_1.png' | relative_url }}" alt="Miro Feature Mapping Table" class="project-image">
     <span class="image-caption">To prioritize features and align on the initial release, we mapped out the key components and functionalities for the chat widget. While I didn’t have access to the design files or planning materials for v1.0, this table (created collaboratively in Miro) outlines the core areas of focus for v1.1.</span>
 </div>
 
 
 <div class="project-grid-2-cols" style="grid-template-columns: 1.8fr 1fr; align-items: start;">
     <div class="project-image-container" style="margin: 0; text-align: left;">
-        <img src="/assets/images/ultimate/flow_chart_pre_chat_form.png" alt="Pre-Chat Form Flow Chart" class="project-image">
+        <img src="{{ '/assets/images/ultimate/flow_chart_pre_chat_form.png' | relative_url }}" alt="Pre-Chat Form Flow Chart" class="project-image">
         <span class="image-caption">Flow chart for the "pre chat forms" feature which came with version 1.1. (preview of the feature in the gif on the right side).</span>
     </div>
 
     <div class="project-image-container" style="margin: 0;">
-        <img src="/assets/images/ultimate/pre_chat_form.gif" alt="Pre-Chat Form Animation" class="project-image" style="max-height: 420px; width: auto; margin: 0 auto; display: block;">
+        <img src="{{ '/assets/images/ultimate/pre_chat_form.gif' | relative_url }}" alt="Pre-Chat Form Animation" class="project-image" style="max-height: 420px; width: auto; margin: 0 auto; display: block;">
     </div>
 </div>
 
@@ -70,7 +70,7 @@ I designed a system that balances radical customization for brands with consiste
 I developed a flexible component library that allowed companies to inject their brand identity. Beyond text, I designed interactive "Cards" to enable complex transactions within the chat bubble.
 
 <div class="project-image-container">
-    <img src="/assets/images/ultimate/carousel_example.jpg" alt="Rich UI Carousel Example" class="project-image">
+    <img src="{{ '/assets/images/ultimate/carousel_example.jpg' | relative_url }}" alt="Rich UI Carousel Example" class="project-image">
     <span class="image-caption">Another example of a later feature: A customizable carousel for shopping items, hotel bookings, and various other use cases.</span>
 </div>
 
@@ -79,7 +79,7 @@ I developed a flexible component library that allowed companies to inject their 
 A widget is only as good as its setup process. I designed the admin interface to allow seamless customization.
 
 <div class="project-image-container">
-    <img src="/assets/images/ultimate/settings_page.jpg" alt="Ultimate Settings Dashboard" class="project-image">
+    <img src="{{ '/assets/images/ultimate/settings_page.jpg' | relative_url }}" alt="Ultimate Settings Dashboard" class="project-image">
     <span class="image-caption">The settings page for the chat widget (which followed the design patterns of ultimate).</span>
 </div>
 
@@ -88,7 +88,7 @@ A widget is only as good as its setup process. I designed the admin interface to
 The critical moment in automation is failure. I designed a seamless bot-to-human handoff passing the full history to the agent. Furthermore, addressing AI distrust was a major priority.
 
 <div class="project-image-container">
-    <img src="/assets/images/ultimate/later_design_with_sources.jpg" alt="Source Citations UI" class="project-image">
+    <img src="{{ '/assets/images/ultimate/later_design_with_sources.jpg' | relative_url }}" alt="Source Citations UI" class="project-image">
     <span class="image-caption">An example from a later version: noticing users didn’t trust AI due to occasional hallucinations, I designed the source citations to improve transparency and reliability.</span>
 </div>
 

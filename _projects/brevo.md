@@ -34,13 +34,13 @@ During my time, I contributed to the editor across several sprints, focusing on:
 This work laid the foundation for a robust, user-friendly email editor that continues to evolve with Brevo’s updates.
 
 <div class="project-image-container">
-    <img src="/assets/images/editor/sib.gif" alt="Email Editor in Action" class="project-image">
-    <img src="/assets/images/editor/sib_editor_template.jpg" alt="Editor Template" class="project-image" style="margin-top: 20px;">
+    <img src="{{ '/assets/images/editor/sib.gif' | relative_url }}" alt="Email Editor in Action" class="project-image">
+    <img src="{{ '/assets/images/editor/sib_editor_template.jpg' | relative_url }}" alt="Editor Template" class="project-image" style="margin-top: 20px;">
     <span class="image-caption">I developed content editing features and tools to rearrange content seamlessly without disrupting the design. The editor was designed to balance simplicity and functionality, catering to both beginners and experienced users.</span>
 </div>
 
 <div class="project-image-container">
-    <img src="/assets/images/editor/editor_detail.jpg" alt="Editor Detail View" class="project-image">
+    <img src="{{ '/assets/images/editor/editor_detail.jpg' | relative_url }}" alt="Editor Detail View" class="project-image">
 </div>
 
 <div class="detail-section-header">
@@ -62,7 +62,7 @@ This work laid the foundation for a robust, user-friendly email editor that cont
 - **Month 4:** 28.4% (vs. 15.8%) — **80% improvement**
 
 <div class="project-image-container">
-    <img src="/assets/images/editor/tasklist.png" alt="Task Organization" class="project-image">
+    <img src="{{ '/assets/images/editor/tasklist.png' | relative_url }}" alt="Task Organization" class="project-image">
     <span class="image-caption">A snapshot of how I organized tasks to build the editor, an ongoing project throughout my time at the company.</span>
 </div>
 
@@ -73,7 +73,7 @@ This work laid the foundation for a robust, user-friendly email editor that cont
 The first project I worked on when I started at the company, together with a product manager. The design remains unchanged after several years, apart from the updated logo and top-row links (Usage and Plan). I also contributed ideas and testing to encourage users to upgrade their plans, as highlighted in the bottom banner.
 
 <div class="project-image-container">
-    <img src="/assets/images/editor/campaign-overview.jpg" alt="Campaign Overview Dashboard" class="project-image">
+    <img src="{{ '/assets/images/editor/campaign-overview.jpg' | relative_url }}" alt="Campaign Overview Dashboard" class="project-image">
 </div>
 
 <div class="detail-section-header">
@@ -87,5 +87,5 @@ I did various rounds of user interviews which helped to develop several help tex
 I worked on several products from the company (SMS, Whatsapp, etc.) and this is just one example.
 
 <div class="project-image-container">
-    <img src="/assets/images/editor/sender_design.jpg" alt="Sender Design with Live Preview" class="project-image">
+    <img src="{{ '/assets/images/editor/sender_design.jpg' | relative_url }}" alt="Sender Design with Live Preview" class="project-image">
 </div>

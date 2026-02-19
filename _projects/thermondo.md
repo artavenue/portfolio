@@ -44,7 +44,7 @@ Thermondo is the leading heating installer in the field of single and double fam
 - Created an editable styleguide.
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/wireframes.png" alt="Wireframes and Planning" class="project-image">
+    <img src="{{ '/assets/images/calculator/wireframes.png' | relative_url }}" alt="Wireframes and Planning" class="project-image">
     <span class="image-caption">Detailed wireframes helped win over stakeholders and defined the logic for every screen and state.</span>
 </div>
 
@@ -67,7 +67,7 @@ This is how the process of generating an offer was designed before I joined the 
 - Missing a good mobile/tablet version.
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/multistep_old.jpg" alt="Old Multistep Calculator" class="project-image">
+    <img src="{{ '/assets/images/calculator/multistep_old.jpg' | relative_url }}" alt="Old Multistep Calculator" class="project-image">
     <span class="image-caption">The legacy calculator suffered from high cognitive load and visual misalignment.</span>
 </div>
 
@@ -87,7 +87,7 @@ Some changes are done!
 - Full responsive support for mobile, tablet, and desktop.
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/afterredesigncalculator.jpg" alt="New Multistep Calculator" class="project-image">
+    <img src="{{ '/assets/images/calculator/afterredesigncalculator.jpg' | relative_url }}" alt="New Multistep Calculator" class="project-image">
     <span class="image-caption">The redesigned calculator focused on simplicity, clarity, and mobile responsiveness.</span>
 </div>
 
@@ -100,7 +100,7 @@ Users arrive from various sources, such as ads or directly from the homepage, of
 This screenshot shows a brief version of our copy tailored for users familiar with us, which we tested against longer, more detailed versions explaining what we do and how we do it.
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/template_thermondo_landingpage.jpg" alt="Thermondo Landingpage" class="project-image">
+    <img src="{{ '/assets/images/calculator/template_thermondo_landingpage.jpg' | relative_url }}" alt="Thermondo Landingpage" class="project-image">
 </div>
 
 <div class="detail-section-header">
@@ -111,7 +111,7 @@ This screenshot shows a brief version of our copy tailored for users familiar wi
 This particular test was our biggest UX achievement in 2016! **It created 52% more leads.** 
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/ab-test.jpg" alt="A/B Test 52% Lead Increase" class="project-image">
+    <img src="{{ '/assets/images/calculator/ab-test.jpg' | relative_url }}" alt="A/B Test 52% Lead Increase" class="project-image">
     <span class="image-caption">Rigorous A/B testing of copy, photography, and field reduction led to a 52% increase in lead generation.</span>
 </div>
 
@@ -121,6 +121,6 @@ On a side note: UX Studies are showing, fewer input fields engaging more people 
 Later, in 2017 we could improve the multistep by **19% again**. We added a new step before the last step. Now the user gets feedback about his location before he decides to share his personal data with us.
 
 <div class="project-image-container">
-    <img src="/assets/images/calculator/ab-test2.jpg" alt="Location Feedback Integration" class="project-image">
+    <img src="{{ '/assets/images/calculator/ab-test2.jpg' | relative_url }}" alt="Location Feedback Integration" class="project-image">
     <span class="image-caption">In 2017, we introduced a location feedback step, further improving the conversion rate by 19%.</span>
 </div>

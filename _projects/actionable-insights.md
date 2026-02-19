@@ -36,19 +36,19 @@ Users struggled to define what ‘success’ meant for their chatbots, leaving t
 Collaborating with the Product Manager, I conducted user interviews with chatbot builders. We found that basic deflection rates didn’t guarantee quality resolutions and ignored things like upselling or mid-conversation drop-offs.
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/feedback.png" alt="Rationale & Assumptions" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/feedback.png' | relative_url }}" alt="Rationale & Assumptions" class="project-image">
     <span class="image-caption">This project discovery board outlines the rationale and assumptions for improving feedback collection within a virtual agent platform to help customers better evaluate automated support performance. The team aims to learn how users compare human and automation data while acknowledging the risk that users might treat CSAT scores for both as identical.</span>
 </div>
 
 - **Competitor Analysis:** We analyzed how different companies measured chatbot success. We found several "anti-patterns," like tagging a conversation as "informed" even when no actual solution or language was available.
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/opportunity_tree.png" alt="Opportunity Tree" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/opportunity_tree.png' | relative_url }}" alt="Opportunity Tree" class="project-image">
     <span class="image-caption">Using an Opportunity Tree to align business goals with user needs.</span>
 </div>
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/antipatterns.png" alt="Research Board / Anti-Patterns" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/antipatterns.png' | relative_url }}" alt="Research Board / Anti-Patterns" class="project-image">
     <span class="image-caption">We analyzed competitors and found different Anti-Patterns in how they defined their metrics, highlighting the need for a more flexible approach.</span>
 </div>
 
@@ -64,7 +64,7 @@ This means it is often not only important how a conversation ended, but also to 
 `Start` → `[Undefined]` → `[Informed]` → `[Not resolved]` → `[Escalated to Agent]`
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/sticky.png" alt="Flow Status Strategy" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/sticky.png' | relative_url }}" alt="Flow Status Strategy" class="project-image">
     <span class="image-caption">Key strategies involve defining success through status-changing nodes and accumulating drop-off rates between the start and resolution points.</span>
 </div>
 
@@ -80,7 +80,7 @@ We built Resolution States directly into the dialogue builder and updated the Lo
 Users can now assign a Resolution State to any point in the conversation via a simple dropdown.
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/dashboard_with_dropdowns.jpg" alt="Dialogue Builder Integration" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/dashboard_with_dropdowns.jpg' | relative_url }}" alt="Dialogue Builder Integration" class="project-image">
     <span class="image-caption">In the dialogue builder, users can assign a Resolution State to any point in the conversation. The system tracks it seamlessly.</span>
 </div>
 
@@ -88,7 +88,7 @@ Users can now assign a Resolution State to any point in the conversation via a s
 Every interaction in the logs is now marked with its Resolution State. **As seen at the top of this page**, I introduced a visual loading bar for each conversation, where colors represent different states. For example, multiple purple (escalated) markers show exactly where extra steps or friction occurred.
 
 <div class="project-image-container">
-    <img src="/assets/images/actionable insights/legend.png" alt="Legend for Status Tags" class="project-image">
+    <img src="{{ '/assets/images/actionable insights/legend.png' | relative_url }}" alt="Legend for Status Tags" class="project-image">
     <span class="image-caption">A clear color taxonomy makes the flow of any conversation instantly readable.</span>
 </div>
 
