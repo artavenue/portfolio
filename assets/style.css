@@ -176,6 +176,54 @@ body {
 }
 
 /* =========================================
+   BURGER MENU
+   ========================================= */
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 24px;
+    height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+}
+
+.burger-line {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: all 0.3s linear;
+    transform-origin: 1px;
+}
+
+.navbar.scrolled .burger-line {
+    background: #1a1a1a;
+}
+
+.navbar.nav-dark .burger-line {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar.nav-dark.scrolled .burger-line {
+    background: #fff;
+}
+
+.burger-menu.active .burger-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.burger-menu.active .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+/* =========================================
    NAVBAR FACE
    ========================================= */
 .nav-face {
@@ -1063,14 +1111,25 @@ footer a:hover {
 
     /* Header */
     header {
-        padding: 80px 20px 60px;
+        padding: 120px 20px 80px;
         flex-direction: column;
         text-align: center;
     }
 
+    .pixel-head {
+        width: 76px;
+    }
+
+    .hero-face-container {
+        width: 76px;
+        height: 76px;
+        margin-top: -5px;
+    }
+
     .header-content {
         flex-direction: column;
-        gap: 20px;
+        gap: 32px;
+        /* Increased from 20px */
     }
 
     .header-text {
@@ -1080,6 +1139,55 @@ footer a:hover {
     h1.greeting {
         font-size: 3rem;
         text-align: center;
+    }
+
+    /* Mobile Navigation */
+    .burger-menu {
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: #fff;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 100px;
+        padding-left: 40px;
+        transition: right 0.3s ease-in-out;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+        gap: 30px;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-container {
+        padding: 0 20px;
+    }
+
+    .nav-back-header {
+        left: 20px;
+    }
+
+    .navbar .nav-links a,
+    .navbar.nav-dark .nav-links a,
+    .navbar.scrolled .nav-links a {
+        color: #1a1a1a !important;
+        font-size: 1.2rem;
+    }
+
+    .navbar .nav-links a.active::after,
+    .navbar.nav-dark .nav-links a.active::after,
+    .navbar.scrolled .nav-links a.active::after {
+        background: #000 !important;
     }
 
     /* Project Cards */

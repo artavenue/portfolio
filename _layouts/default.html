@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} – {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v={{ 'now' | date: '%s' }}">
     {% if page.extra_css %}
     <style>
         {
@@ -23,6 +23,15 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const navbar = document.querySelector('.navbar');
+            const burgerMenu = document.querySelector('.burger-menu');
+            const navLinks = document.querySelector('.nav-links');
+
+            if (burgerMenu) {
+                burgerMenu.addEventListener('click', function () {
+                    burgerMenu.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+            }
 
             function handleScroll() {
                 if (window.scrollY > 50) {

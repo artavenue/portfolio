@@ -6,6 +6,11 @@ layout: default
 <nav class="navbar nav-dark">
     <div class="nav-container">
         <a href="{{ '/' | relative_url }}" class="nav-back-header">← Portfolio</a>
+        <div class="burger-menu" aria-label="Toggle navigation">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </div>
         <div class="nav-links">
             <a href="{{ '/' | relative_url }}"
                 class="{% if page.active_nav == 'portfolio' %}active{% endif %}">Portfolio</a>
