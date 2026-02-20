@@ -1173,6 +1173,26 @@ footer a:hover {
         padding: 0 20px;
     }
 
+    /* Detail Pages (Case Studies) */
+    .detail-title {
+        font-size: 2.8rem;
+    }
+
+    .full-width-image,
+    .project-hero-wrap {
+        width: calc(100% - 40px);
+        /* 100% minus 20px left and right margins */
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 16px;
+        /* Ensure corners appear correctly rounded */
+    }
+
+    .project-hero-wrap-img {
+        max-width: 100%;
+        /* Make sure inner image scales within the new wrap size */
+    }
+
     .nav-back-header {
         left: 20px;
     }
